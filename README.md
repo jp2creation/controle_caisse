@@ -12,14 +12,24 @@ Ce projet sert a :
 - colorer les onglets selon l'etat reel de la feuille
 - associer des justificatifs fichiers aux sorties
 
+## Apercu
+
+### Tableau de bord
+
+![Tableau de bord](images/tableau-de-bord.png)
+
+### Caisse journaliere
+
+![Caisse journaliere](images/caisse-journaliere.png)
+
 ## Contenu du depot
 
-- [caisse_ms.xlsm](/Users/jean-philippe/Documents/Codex/Caisse_MSP/caisse_ms.xlsm) : classeur principal Excel avec macros
-- [vba_fixes/ModuleNouveauJourCaisse.bas](/Users/jean-philippe/Documents/Codex/Caisse_MSP/vba_fixes/ModuleNouveauJourCaisse.bas) : creation d'un nouveau jour de caisse, synchronisation des reports et recalcul
-- [vba_fixes/ModuleCouleurOngletP3.bas](/Users/jean-philippe/Documents/Codex/Caisse_MSP/vba_fixes/ModuleCouleurOngletP3.bas) : logique de statut et coloration automatique des onglets
-- [vba_fixes/UploadJustificatifsSortie.bas](/Users/jean-philippe/Documents/Codex/Caisse_MSP/vba_fixes/UploadJustificatifsSortie.bas) : ajout d'un justificatif fichier sur une ligne de sortie
-- [vba_fixes/ThisWorkbook.cls](/Users/jean-philippe/Documents/Codex/Caisse_MSP/vba_fixes/ThisWorkbook.cls) : evenements du classeur
-- [vba_fixes/FeuilleVide.cls](/Users/jean-philippe/Documents/Codex/Caisse_MSP/vba_fixes/FeuilleVide.cls) : module de feuille vide / support
+- [caisse_ms.xlsm](caisse_ms.xlsm) : classeur principal Excel avec macros
+- [vba_fixes/ModuleNouveauJourCaisse.bas](vba_fixes/ModuleNouveauJourCaisse.bas) : creation d'un nouveau jour de caisse, synchronisation des reports et recalcul
+- [vba_fixes/ModuleCouleurOngletP3.bas](vba_fixes/ModuleCouleurOngletP3.bas) : logique de statut et coloration automatique des onglets
+- [vba_fixes/UploadJustificatifsSortie.bas](vba_fixes/UploadJustificatifsSortie.bas) : ajout d'un justificatif fichier sur une ligne de sortie
+- [vba_fixes/ThisWorkbook.cls](vba_fixes/ThisWorkbook.cls) : evenements du classeur
+- [vba_fixes/FeuilleVide.cls](vba_fixes/FeuilleVide.cls) : module de feuille vide / support
 
 ## Fonctionnement principal
 

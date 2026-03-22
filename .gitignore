@@ -1,0 +1,11 @@
+.DS_Store
+._*
+
+# Fichiers temporaires Excel
+~$*.xls
+~$*.xlsx
+~$*.xlsm
+~$*.xlsb
+
+# Archives macOS
+__MACOSX/
